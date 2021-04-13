@@ -43,41 +43,37 @@ q:before, q:after {
     }
 
 
-    /*Header styles*/
-    .mylife{display: flex;
-    flex-direction: column ;
-align-items: center;
-font-size: 3rem;}
-nav{font-size:1rem;}
-
-
-
-
-  /*Intro Styles*/
-  .intro{display: flex;
-    flex-direction: column ;
-align-items: center;font-size: 2rem;
-text-align: justify;}
-
-
-
-/*Backgroundimage*/
-.backimg {
-    background-image: url("https://picsum.photos/200/300?random=1");
-   background-size:cover ;
-    background-repeat: repeat;
-    padding:30% auto;
-    height: 40%;
+ .title {text-align: center;
 
 }
-  
-
-
-
-/*Images*/
-.pics{display: flex;
-flex-direction: row;
+.name{display: flex;
 justify-content: space-between;}
+.topbox{text-align: center;}
+.bckimg{background-image:url('https://i.picsum.photos/id/1004/5616/3744.jpg?hmac=Or7EJnz-ky5bsKa9_frdDcDCR9VhCP8kMnbZV6-WOrY';) 
+  background-size: cover;  
+    background-repeat: no-repeat ;
+width:100%}
 
-footer{display: flex;
-justify-content: space-evenly;}
+    .all{display: flex;
+    justify-content: space-between;
+}
+.bot{display: flex;
+    justify-content: space-between;} 
+    
+    footer{text-align: center;}
+
+
+
+    @media(max-width:500px){
+        .all{display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+        .bot{display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;} 
+            
+            
+    }
